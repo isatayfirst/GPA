@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baga Sanau Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ph.jpg" type="image/png">
+</head>
+<body>
+
+<div class="calculator">
+    <h1>Orta Agym Calculator</h1>
+
+    <div class="input-group">
+        <div class="wave-group">
+            <input type="text" id="sr" class="input" required>
+            <span class="bar"></span>
+            <label class="label">
+                <span class="label-char" style="--index: 0">O</span>
+                <span class="label-char" style="--index: 1">r</span>
+                <span class="label-char" style="--index: 2">t</span>
+                <span class="label-char" style="--index: 3">a</span>
+                <span class="label-char" style="--index: 4"> </span>
+                <span class="label-char" style="--index: 5">A</span>
+                <span class="label-char" style="--index: 6">g</span>
+                <span class="label-char" style="--index: 7">y</span>
+                <span class="label-char" style="--index: 8">m</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <div class="wave-group">
+            <input type="text" id="rk1" class="input" required>
+            <span class="bar"></span>
+            <label class="label">
+                <span class="label-char" style="--index: 0">R</span>
+                <span class="label-char" style="--index: 1">K</span>
+                <span class="label-char" style="--index: 2"> </span>
+                <span class="label-char" style="--index: 3">1</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <div class="wave-group">
+            <input type="text" id="rk2" class="input" required>
+            <span class="bar"></span>
+            <label class="label">
+                <span class="label-char" style="--index: 0">R</span>
+                <span class="label-char" style="--index: 1">K</span>
+                <span class="label-char" style="--index: 2"> </span>
+                <span class="label-char" style="--index: 3">2</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <div class="wave-group">
+            <input type="text" id="em" class="input" required>
+            <span class="bar"></span>
+            <label class="label">
+                <span class="label-char" style="--index: 0">E</span>
+                <span class="label-char" style="--index: 1">m</span>
+                <span class="label-char" style="--index: 2">t</span>
+                <span class="label-char" style="--index: 3">i</span>
+                <span class="label-char" style="--index: 4">h</span>
+                <span class="label-char" style="--index: 5">a</span>
+                <span class="label-char" style="--index: 6">n</span>
+            </label>
+        </div>
+    </div>
+
+    <button onclick="calculateResult()">ESEPTEU</button>
+
+    <div id="result" class="result-container">
+        <p id="resultValue" style="font-size: 20px;">Result HERE</p>
+        <p id="resultText" style="font-size: 20px;">Input your data</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
